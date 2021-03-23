@@ -37,7 +37,8 @@
     "blueprints": [],
     "skipClient": true,
     "skipUserManagement": true,
-    "prettierJava": true
+    "prettierJava": true,
+    "reactive": true
   },
   "git-provider": "GitHub",
   "git-company": "MrUstiik",
