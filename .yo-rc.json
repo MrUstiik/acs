@@ -5,7 +5,7 @@
     "baseName": "ActionCatalogService",
     "packageName": "com.ftr.dgb.payments.action.catalog",
     "packageFolder": "com/ftr/dgb/payments/action/catalog",
-    "serverPort": 8089,
+    "serverPort": "8089",
     "serviceDiscoveryType": false,
     "authenticationType": "jwt",
     "uaaBaseName": "../uaa",
@@ -16,7 +16,7 @@
     "devDatabaseType": "h2Memory",
     "prodDatabaseType": "postgresql",
     "searchEngine": false,
-    "enableSwaggerCodegen": "true",
+    "enableSwaggerCodegen": true,
     "messageBroker": false,
     "buildTool": "gradle",
     "useSass": true,
@@ -24,7 +24,7 @@
     "testFrameworks": [],
     "enableTranslation": true,
     "nativeLanguage": "en",
-    "languages": ["ru", "ua", "en"],
+    "languages": ["ua", "en", "ru"],
     "clientFramework": "angularX",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "6.10.5",
@@ -32,7 +32,7 @@
     "embeddableLaunchScript": false,
     "creationTimestamp": 1616534873757,
     "entitySuffix": "",
-    "dtoSuffix": "DTO",
+    "dtoSuffix": "Dto",
     "otherModules": [],
     "blueprints": [],
     "skipClient": true,
@@ -41,5 +41,6 @@
   },
   "git-provider": "GitHub",
   "git-company": "MrUstiik",
-  "repository-name": "acs"
+  "repository-name": "acs",
+  "entities": []
 }
